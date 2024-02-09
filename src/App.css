@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  .music{
+    background-image: url(https://wallpapers.com/images/hd/medical-doctor-with-stethoscope-0hqq4kt650z5c04x.jpg);
+    background-size:cover;
+   background-repeat:no-repeat;
+   background-position: top;           
+  }
+
+  .cardimg{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/127/955/small/abstract-white-and-grey-background-with-dynamic-waves-shape-free-vector.jpg);
+  }
+  .centered-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 1000px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://cdnl.iconscout.com/lottie/premium/thumb/heartbeat-5510278-4584160.gif);
+    opacity: 0.3;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .centered-box {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .centered-box {
+      width: 90%; /* Adjust width for even smaller screens */
+    }
+  }
+  
+.img{
+    background-image: url(https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg?w=1060&t=st=1707409107~exp=1707409707~hmac=1d446f1dc85e4f0ab9036906a4e8dfc117a1d7083f6d576e81653f6a66016d0c);
+}
+  
+  
+  
+  
